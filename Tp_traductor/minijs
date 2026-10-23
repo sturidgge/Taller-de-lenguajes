@@ -1,0 +1,18 @@
+TP Traductor 
+Taller lenguajes de programació
+Mini javascript
+
+<Programa> ::= <Sentencia> | <Sentencia> <Programa>
+<Sentencia> ::= <Declaracion> | <Impresion>
+<Declaracion> ::= let <Variable> = <Expresion>; | const <Variable> = <Expresion>;
+<Impresion> ::= console.log ( <Expresion> );
+<Expresion> ::= <Variable> | <Digito> | <Expresion> + <Expresion> | <Expresion> - <Expresion> | <Expresion> * <Expresion> | <Expresion> / <Expresion>
+<Variable> ::= <Letra> | <Variable><Letra> | <Variable><Digito>
+<Letra> ::= a | b | c | ... | z
+<Digito> ::= 0 | 1 | 2 | ... | 9
+
+Programa de ejemplo:
+
+Programa -> Sentencia -> Declaracion -> let Variable = Expresion; -> let Mandarina = Expresion; -> let Mandarina = Expresion + Expresion; -> let Mandarina = Digito + Digito;
+
+let Mandarina = 23 + 5;
